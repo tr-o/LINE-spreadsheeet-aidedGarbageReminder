@@ -1,5 +1,4 @@
 # LINE-spreadsheeet-aidedGarbageReminder
-## Table of Contents
 
 ### Japanese version
 - [LINE-スプレッドシート利用ゴミ収集リマインダー](#line-スプレッドシート利用ゴミ収集リマインダー)
