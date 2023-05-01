@@ -1,6 +1,7 @@
+# LINE-spreadsheeet-aidedGarbageReminder
 ## Table of Contents
 
-# Japanese version
+### Japanese version
 - [LINE-スプレッドシート利用ゴミ収集リマインダー](#line-スプレッドシート利用ゴミ収集リマインダー)
   - [機能](#機能)
   - [セットアップ](#セットアップ)
@@ -8,7 +9,7 @@
   - [GPT-4によるコード評価](#gpt-4によるコード評価)
 ![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
 
-# English version
+### English version
 - [LINE-spreadsheet-aidedGarbageReminder](#line-spreadsheet-aidedgarbagereminder)
   - [Features](#features)
   - [Setup](#setup)
