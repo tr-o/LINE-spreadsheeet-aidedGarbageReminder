@@ -1,28 +1,15 @@
-# LINE-spreadsheeet-aidedGarbageReminder
-
-- [LINE-スプレッドシート利用ゴミ収集リマインダー(Japanese version)](#line-スプレッドシート利用ゴミ収集リマインダー)
-  - [特徴](#特徴)
-  - [Googleサービスに依存する利点](#Googleサービスに依存する利点)
-  - [セットアップ](#セットアップ)
-  - [関数](#関数)
-  - [自動化](#自動化)
-  - [GPT-4によるコード評価](#gpt-4によるコード評価)
-
-![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
-
-- [English version: LINE-spreadsheet-aidedGarbageReminder](#line-spreadsheet-aidedgarbagereminder)
-  - [Features](#features)
-  - [Advantages of Relying on Google Services](#Advantages of Relying on Google Services)
-  - [Setup](#setup)
-  - [Automation](#Automation)
-  - [Functions](#functions)
-  - [Code Evaluation by GPT-4](#code-evaluation-by-gpt-4)
-
-![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
-
 # LINE-スプレッドシート利用ゴミ収集リマインダー
-
 このGoogle Apps Scriptは、特定のゴミの種類に対してスケジュールされたゴミ収集日がある場合、LINE Notifyを介して通知を送信します。ゴミ収集スケジュールはGoogleスプレッドシートに保存されています。
+![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
+
+##Table of content
+- [特徴](#特徴)
+- [Googleサービスに依存する利点](#Googleサービスに依存する利点)
+- [セットアップ](#セットアップ)
+- [関数](#関数)
+- [自動化](#自動化)
+- [GPT-4によるコード評価](#gpt-4によるコード評価)
+- [English version:LINE-spreadsheet-aidedGarbageReminder](#line-spreadsheet-aidedgarbagereminder)
 
 ## 特徴
 
