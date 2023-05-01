@@ -1,7 +1,10 @@
 # LINE-spreadsheeet-aidedGarbageReminder
 
 This Google Apps Script sends notifications via LINE Notify when there is a scheduled garbage collection day for a specific garbage type. The garbage collection schedule is stored in a Google Spreadsheet.
+### Japaneseversion
 ![image](https://user-images.githubusercontent.com/98264095/235391988-27cfc5cb-b24d-467a-a920-45298f82a923.png)
+### English version
+![image](https://user-images.githubusercontent.com/98264095/235404659-ba12b7aa-d521-4c4a-99d6-12a984a36ba0.png)
 
 ## Features
 
