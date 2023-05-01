@@ -37,7 +37,7 @@
 1. 新しいGoogleスプレッドシートを作成し、シート名を「GarbageCalendar」にします。/`samplesheet_for_garbageCollectionNotifier_v1.xlsx/`を使うことで素早く始められます。
 2. ゴミ収集カレンダーデータを以下の形式で入力します：
 
-`
+```
 | ゴミの種類 | 曜日 | 第1週 | 第2週 | 第3週 | 第4週 | 第5週 |
 |------------|------|-------|-------|-------|-------|-------|
 | 金属       | 金曜  | TRUE  | FALSE | TRUE  | FALSE | FALSE |
@@ -45,7 +45,7 @@
 | PETボトル  | 水曜  | FALSE | TRUE  | FALSE | TRUE  | FALSE |
 | 紙         | 水曜  | TRUE  | FALSE | TRUE  | FALSE | FALSE |
 | 缶 & ボトル | 金曜  | TRUE  | FALSE | TRUE  | FALSE | FALSE |
-`
+```
 
 3. スクリプトコードをGoogleスプレッドシートにリンクされた新しいGoogle Apps Scriptプロジェクトに貼り付けます。
 4. `sendLineNotification`関数内のLINE Notify APIトークンを自分のトークンに置き換えます。
