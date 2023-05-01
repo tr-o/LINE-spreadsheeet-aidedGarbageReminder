@@ -34,7 +34,7 @@
 
 ## セットアップ
 
-1. 新しいGoogleスプレッドシートを作成し、シート名を「GarbageCalendar」にします。/`samplesheet_for_garbageCollectionNotifier_v1.xlsx/`を使うことで素早く始められます。
+1. 新しいGoogleスプレッドシートを作成し、シート名を「GarbageCalendar」にします。`samplesheet_for_garbageCollectionNotifier_v1.xlsx`を使うことで素早く始められます。
 2. ゴミ収集カレンダーデータを以下の形式で入力します：
 
 ```
