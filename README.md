@@ -3,7 +3,8 @@
 
 ### Japanese version
 - [LINE-スプレッドシート利用ゴミ収集リマインダー](#line-スプレッドシート利用ゴミ収集リマインダー)
-  - [機能](#機能)
+  - [特徴](#特徴)
+  - [Googleサービスに依存する利点](#Googleサービスに依存する利点)
   - [セットアップ](#セットアップ)
   - [関数](#関数)
   - [自動化](#自動化)
@@ -14,6 +15,7 @@
 ### English version
 - [LINE-spreadsheet-aidedGarbageReminder](#line-spreadsheet-aidedgarbagereminder)
   - [Features](#features)
+  - [Advantages of Relying on Google Services](#Advantages of Relying on Google Services)
   - [Setup](#setup)
   - [Automation](#Automation)
   - [Functions](#functions)
@@ -25,12 +27,31 @@
 
 このGoogle Apps Scriptは、特定のゴミの種類に対してスケジュールされたゴミ収集日がある場合、LINE Notifyを介して通知を送信します。ゴミ収集スケジュールはGoogleスプレッドシートに保存されています。
 
-## 機能
+## 特徴
 
 - Googleスプレッドシートからゴミ収集カレンダーデータを読み込む
 - LINE Notifyを使って通知を送信する
 - 翌日のゴミ収集予定のゴミの種類を判断する
 - 様々なゴミの種類と収集スケジュールに対応
+
+## Googleサービスに依存する利点
+
+このスクリプトは、Googleサービスに依存しているため、いくつかの利点があります:
+
+1. **使いやすさ:** Google Apps Scriptは、GoogleシートなどのGoogle Workspace製品に慣れている人にとって、設定や使用が簡単です。
+
+2. **サーバー設定不要:** Google Apps Scriptを使用することで、別途サーバーを設定、維持、または支払う必要がありません。これにより、スクリプトの実行の複雑さとコストが削減されます。
+
+3. **Google Workspaceとの統合:** このコードはGoogleシートとGoogle Apps Scriptで動作するように設計されているため、Google Workspaceアプリケーションとのシームレスな統合が可能です。
+
+4. **スケーラビリティ:** Googleサービスは、多数のリクエストを処理し、それに応じてスケーリングするように設計されています。これにより、スクリプトは追加の設定なしで、より多くのユーザーや高負荷に対応できます。
+
+5. **セキュリティ:** Googleサービスはセキュリティを念頭に置いて構築されており、それらを使用することで、Googleのセキュリティインフラストラクチャを活用できます。
+
+ただし、Googleサービスに完全に依存することには、いくつかの欠点があります:
+
+1. **Googleへの依存:** サービスが停止したり、Googleがサ
+
 
 ## セットアップ
 
@@ -100,6 +121,26 @@ This Google Apps Script sends notifications via LINE Notify when there is a sche
 - Sends notifications via LINE Notify
 - Determines the garbage type scheduled for collection on the following day
 - Supports various garbage types and collection schedules
+
+## Advantages of Relying on Google Services
+
+This script relies on Google services, which offers several advantages:
+
+1. **Ease of use:** Google Apps Script is easy to set up and use, especially for those who are already familiar with Google Workspace products like Google Sheets.
+
+2. **No server setup required:** By using Google Apps Script, you don't need to set up, maintain, or pay for a separate server. This reduces the complexity and cost of running the script.
+
+3. **Integration with Google Workspace:** Since this code is designed to work with Google Sheets and Google Apps Script, it benefits from seamless integration with other Google Workspace applications.
+
+4. **Scalability:** Google services are designed to handle a large number of requests and scale accordingly. This means that your script can handle more users and higher loads without any additional setup.
+
+5. **Security:** Google services are built with security in mind, and using them means benefiting from Google's security infrastructure.
+
+However, there are some potential downsides to relying solely on Google services:
+
+1. **Dependency on Google:** If there is a service outage or Google decides to discontinue a service, your script may stop working.
+
+2. **Limited customization:** Google Apps Script may not provide all the features or customization options that a custom server setup would offer.
 
 ## Setup
 
