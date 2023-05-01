@@ -1,7 +1,6 @@
 # LINE-spreadsheeet-aidedGarbageReminder
 
-### [Japanese version](#LINE-スプレッドシート利用ゴミ収集リマインダー)
-- [LINE-スプレッドシート利用ゴミ収集リマインダー](#line-スプレッドシート利用ゴミ収集リマインダー)
+- [LINE-スプレッドシート利用ゴミ収集リマインダー(Japanese version)](#line-スプレッドシート利用ゴミ収集リマインダー)
   - [特徴](#特徴)
   - [Googleサービスに依存する利点](#Googleサービスに依存する利点)
   - [セットアップ](#セットアップ)
@@ -11,8 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
 
-### [English version](#)
-- [LINE-spreadsheet-aidedGarbageReminder](#line-spreadsheet-aidedgarbagereminder)
+- [English version: LINE-spreadsheet-aidedGarbageReminder](#line-spreadsheet-aidedgarbagereminder)
   - [Features](#features)
   - [Advantages of Relying on Google Services](#Advantages of Relying on Google Services)
   - [Setup](#setup)
