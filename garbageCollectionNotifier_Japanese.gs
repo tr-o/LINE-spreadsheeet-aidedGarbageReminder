@@ -1,7 +1,7 @@
 // Read the garbage calendar data from the spreadsheet and return it as a dictionary
 function readGarbageCalendar() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
-  const sheet = ss.getSheetByName('garbageCalender');
+  const sheet = ss.getSheetByName('garbageCalender_Japanese');
   const dataRange = sheet.getRange(2, 1, sheet.getLastRow() - 1, 7); // Change 6 to 7
   const data = dataRange.getValues();
   const garbageCalendar = {};
