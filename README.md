@@ -1,6 +1,6 @@
 # LINE-スプレッドシート利用ゴミ収集リマインダー
 このGoogle Apps Scriptは、特定のゴミの種類に対してスケジュールされたゴミ収集日がある場合、LINE Notifyを介して通知を送信します。ゴミ収集スケジュールはGoogleスプレッドシートに保存されています。Google Apps Scriptを使用することで、別途サーバーを設定、維持、または支払いの必要がありません。
-![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
+![image](https://user-images.githubusercontent.com/98264095/235419856-b3418af6-eb9a-4114-b8b6-a17541cfdaa9.png)
 
 ## Table of content
 - [特徴](#特徴)
