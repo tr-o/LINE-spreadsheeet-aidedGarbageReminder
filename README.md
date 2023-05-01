@@ -12,7 +12,7 @@ This Google Apps Script sends notifications via LINE Notify when there is a sche
 
 ## Setup
 
-1. Create a new Google Spreadsheet and name a sheet "GarbageCalendar". You can use sample.xlsx for quick-start.
+1. Create a new Google Spreadsheet and name a sheet "GarbageCalendar". You can use `samplesheet_for_garbageCollectionNotifier_v1.xlsx` for quick-start.
 2. Enter the garbage calendar data in the following format:
 
 ```
