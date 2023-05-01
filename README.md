@@ -4,7 +4,7 @@ This Google Apps Script sends notifications via LINE Notify when there is a sche
 ### Japaneseversion
 ![image](https://user-images.githubusercontent.com/98264095/235391988-27cfc5cb-b24d-467a-a920-45298f82a923.png)
 ### English version
-![image](https://user-images.githubusercontent.com/98264095/235404659-ba12b7aa-d521-4c4a-99d6-12a984a36ba0.png)
+![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
 
 ## Features
 
