@@ -6,6 +6,7 @@
   - [機能](#機能)
   - [セットアップ](#セットアップ)
   - [関数](#関数)
+  - [自動化](#自動化)
   - [GPT-4によるコード評価](#gpt-4によるコード評価)
 ![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
 
@@ -13,6 +14,7 @@
 - [LINE-spreadsheet-aidedGarbageReminder](#line-spreadsheet-aidedgarbagereminder)
   - [Features](#features)
   - [Setup](#setup)
+  - [Automation](#Automation)
   - [Functions](#functions)
   - [Code Evaluation by GPT-4](#code-evaluation-by-gpt-4)
 ![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
@@ -46,6 +48,18 @@
 3. スクリプトコードをGoogleスプレッドシートにリンクされた新しいGoogle Apps Scriptプロジェクトに貼り付けます。
 4. `sendLineNotification`関数内のLINE Notify APIトークンを自分のトークンに置き換えます。
 5. `garbageCollectionNotifier`関数を実行して、明日がゴミ収集日の場合に通知を送信します。
+
+
+## 自動化
+garbageCollectionNotifier関数を自動的に実行するには、時間駆動型トリガーを設定する必要があります。以下の手順に従ってください。
+
+1. Google Apps Scriptプロジェクトを開きます。
+2. 左サイドバーの時計アイコン（トリガー）をクリックします。
+3. 右下隅の「トリガーを追加」ボタンをクリックします。
+4. 「実行する関数を選択」のドロップダウンから、garbageCollectionNotifier関数を選択します。
+5. 「イベントソースを選択」のドロップダウンを「時間駆動型」に設定します。
+6. 時間と頻度を必要に応じて設定します（例えば、「日時タイマー」を選択し、毎日特定の時間に実行するように設定できます）。
+7. 「保存」をクリックしてトリガーを作成します。
 
 ## 関数
 
