@@ -104,6 +104,17 @@ This Google Apps Script sends notifications via LINE Notify when there is a sche
 4. Replace the LINE Notify API token in the `sendLineNotification` function with your own token.
 5. Run the `garbageCollectionNotifier` function to send a notification if there is a scheduled garbage collection day for tomorrow.
 
+## Automation
+To automatically run the `garbageCollectionNotifier` function, you need to set up a time-driven trigger. Follow these instructions:
+
+1. Open your Google Apps Script project.
+2. Click on the clock icon (Triggers) on the left sidebar.
+3. Click the "Add Trigger" button at the bottom right corner.
+4. Choose the garbageCollectionNotifier function from the "Choose which function to run" dropdown.
+5. Set the "Select event source" dropdown to "Time-driven".
+6. Configure the time and frequency as desired (for example, you can choose "Day timer" and set it to run at a specific time every day).
+7. Click "Save" to create the trigger.
+
 ## Functions
 
 - `readGarbageCalendar()`: Reads the garbage calendar data from the spreadsheet and returns it as a dictionary.
