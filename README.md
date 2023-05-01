@@ -8,6 +8,7 @@
   - [関数](#関数)
   - [自動化](#自動化)
   - [GPT-4によるコード評価](#gpt-4によるコード評価)
+
 ![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
 
 ### English version
@@ -17,6 +18,7 @@
   - [Automation](#Automation)
   - [Functions](#functions)
   - [Code Evaluation by GPT-4](#code-evaluation-by-gpt-4)
+
 ![image](https://user-images.githubusercontent.com/98264095/235404740-bbc0eb70-3da2-493a-bdef-f658cbe048de.png)
 
 # LINE-スプレッドシート利用ゴミ収集リマインダー
